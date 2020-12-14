@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf=8">
+        <title>Formulário de contato</title>
+        <style>
+            * {font-family: Arial, Helvetica, sans-serif;
+            }
+    
+            #menu{
+                display: inline;
+            }
+            body{ background-color: rgb(248, 228, 192)
+           }
+            p {
+                font-size: 20px;
+                margin: 10px; 10px;
+                               }
+            p:hover{
+                background-color: darksalmon;
+            }
+            .title{
+                text-align: center;
+                color: rgb(151, 77, 53);
+        </style>
+       </head>
+    <body>
+	 <form action="http://localhost:3000/index2.html" method="GET">
+        <p>Preencha as informações pedidas no formulário abaixo</p>
+<p>Seu nome</p>
+    <input type="text" name="feedback">
+<p>Seu telefone</p>
+    <input type="number" name="feedback">
+<p>Seu e-mail</p>
+    <input type="email" name="feedback">
+<p>Motivo do contato</p>
+    <input type="checkbox" name="Parcerias" value="Parcerias">Parcerias<br>
+    <input type="checkbox" name="Dúvidas" value="Dúvidas">Dúvidas<br>
+    <input type="checkbox" name="Orçamentos" value="Orçamentos">Orçamentos<br>
+    <input type="checkbox" name="Outros" value="Outros">Outros<br>
+<p>Comentários gerais</p>
+    <input type="text" name="feedback">
+    <br>
+    <input type="submit" value="Enviar">
+     </form>
+    </body>
+</html>
